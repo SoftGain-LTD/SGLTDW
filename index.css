@@ -10,4 +10,8 @@
 .test {
  background-color: var(--main-color);
  color: var(--light-one);
+ border: 0px;
+ text-align: center;
+ width: 75px;
+ height: 25px;
 }
