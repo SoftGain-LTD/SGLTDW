@@ -13,12 +13,15 @@
     font-size: 0.7rem;
     border-color: var(--main-color);  
     transition: background-color 1s;
+    cursor: click;
+    cursor:pointer;
 }
 .btn.small {
     padding: 0.7rem 1.8rem;
     font-size: 1rem;
     border-color: var(--main-color);  
     transition: background-color 1s;
+    cursor:pointer;
 }
 @media (max-width: 1280px)
 .btn {
@@ -26,6 +29,7 @@
     font-size: 0.8rem;
     border-color: var(--main-color);
     transition: background-color 1s;
+    cursor:pointer;
 }
 .btn {
     display: inline-block;
@@ -39,9 +43,11 @@
     transition: 0.3s;
     border-color: var(--main-color);   
     transition: background-color 1s;
+    cursor:pointer;
 }
 
 .btn:hover {
  border-color: var(--main-color);   
  background-color: var(--light-one);
+ cursor:pointer;
 }
