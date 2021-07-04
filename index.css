@@ -11,18 +11,21 @@
 .btn.small {
     padding: 0.65rem 1.6rem;
     font-size: 0.7rem;
-    border: 0px;
+    border-color: var(--main-color);  
+    transition: background-color 1s;
 }
 .btn.small {
     padding: 0.7rem 1.8rem;
     font-size: 1rem;
-    border: 0px;
+    border-color: var(--main-color);  
+    transition: background-color 1s;
 }
 @media (max-width: 1280px)
 .btn {
     padding: 0.75rem 1.7rem;
     font-size: 0.8rem;
-    border: 0px;
+    border-color: var(--main-color);
+    transition: background-color 1s;
 }
 .btn {
     display: inline-block;
@@ -34,5 +37,11 @@
     text-transform: uppercase;
     font-weight: 500;
     transition: 0.3s;
-    border: 0px;
+    border-color: var(--main-color);   
+    transition: background-color 1s;
+}
+
+.btn:hover {
+ border-color: var(--main-color);   
+ background-color: var(--light-one);
 }
