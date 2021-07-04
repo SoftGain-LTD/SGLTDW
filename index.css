@@ -6,3 +6,8 @@
     --light-two:  #f9fafb;
     --light-three:  #f6f7fb;
 }
+
+.test {
+ background-color: var(--main-color);
+ color: var(--light-one);
+}
